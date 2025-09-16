@@ -10,4 +10,4 @@ links.
 with VTT captions.
 - **extras.html** — Tables (caption/thead/tbody/tfoot), such as teh weekly feeding scheduke of the animal
 `<details>`, `<dialog open>`, `<progress>`, `<meter>`.
-**Live site:** https://<username>.github.io/<repo-name>/
+**Live site:** https://bosirejoy33.github.io/html_practical/
