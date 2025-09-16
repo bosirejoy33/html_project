@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Practical - About</title>
+    <meta name="description" content="Explore and discover photos and other media from the Kenya National Animal Orphanage">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <a href="#main">Skip to main content</a>
+
+        <header>
+            <h1>  The Kenya National Animal Orphanage: MEDIA </h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="media.html" aria-current="page">Media</a></li>
+                    <li><a href="extras.html">Extras</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="main">
+            <h2>Responsive Images</h2>
+            <figure>
+  <picture>
+    <img
+      src="assets/images/elephant_org-800.jpg"
+      srcset="
+        assets/images/elephant_org-480.jpg 480w,
+        assets/images/elephant_org-800.jpg 800w,
+        assets/images/elephant_org-1200.jpg 1200w
+      "
+      sizes="(max-width: 600px) 100vw, 800px"
+      alt=" descriptive view of a male african lion resting on the grassland"
+      width="1200" height="800"
+      loading="lazy" decoding="async">
+  </picture>
+
+  <figcaption>An african elephant exploring the serengeti</figcaption>
+         </figure>
+
+            <figure>
+  <picture>
+    <img
+      src="assets/images/lion_org-800.jpg"
+      srcset="
+        assets/images/lion_org-480.jpg 480w,
+        assets/images/lion_org-800.jpg 800w,
+        assets/images/lion_org-1200.jpg 1200w
+      "
+      sizes="(max-width: 600px) 100vw, 800px"
+      alt=" descriptive view of a male african lion resting on the grassland"
+      width="1200" height="800"
+      loading="lazy" decoding="async">
+  </picture>
+
+  <figcaption>An african lion resting on the grassland</figcaption>
+           </figure>
+
+               <figure>
+  <picture>
+    <img
+      src="assets/images/giraffe_org-800.jpg"
+      srcset="
+        assets/images/giraffe_org-480.jpg 480w,
+        assets/images/giraffe_org-800.jpg 800w,
+        assets/images/giraffe_org-1200.jpg 1200w
+      "
+      sizes="(max-width: 600px) 100vw, 800px"
+      alt=" descriptive view of an african giraffe roaming the savannah"
+      width="1200" height="800"
+      loading="lazy" decoding="async">
+  </picture>
+
+  <figcaption>An african giraffe roaming the savannah</figcaption>
+         </figure>
+
+            <h2>Animal Sounds</h2>
+            <audio controls>
+              <source src="assets/audio/lion_roar.mp3" type="audio/mpeg">
+              <source src="assets/audio/elephant_trumpet.mp3" type="audio/mpeg">
+              <source src="assets/audio/monkey_sound.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+
+            <h2>Video with Captions</h2>
+              <figure id="videoContainer">
+              <video id="video" controls preload="metadata" width="800">
+              <source src="assets/video/videoplayback.mp4" type="video/mp4" />
+              <source src="assets/video/kenyaconservation.webm" type="video/webm" />
+
+    <track
+      src="assets/captions/Kenya_Living_in_harmony_FIXED.vtt"
+      kind="captions"
+      srclang="en"
+      label="English"
+      default>
+    
+    Sorry, your browser doesn't support embedded videos.
+  </video>
+</figure>
+
+</figure>
+
+        </main>
+        
+           <footer>
+            <p> &copy;<time datetime="2025"> 2025</time> The Kenya National Animal Orphanage</p>
+           </footer>
+    </body>
+</html>
+
+     
+
+

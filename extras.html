@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Practical - About</title>
+    <meta name="description" content="Data tables, interactive elements and microcontent of the Kenya National Animal Orphanage">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <a href="#main">Skip to main content</a>
+
+        <header>
+            <h1> About The Kenya National Animal Orphanage</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="extras.html" aria-current="page">Extras</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="main">
+            <h2>Weekly feeding Plan</h2>
+            <table>
+                <caption>Weekly Feeding Plan for the Animals</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Day</th>
+                        <th scope="col">Animal</th>
+                        <th scope="col">Food(kg)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   <tr><th scope="row">Monday</th><td>Lions</td><td>25</td></tr>
+                   <tr><th scope="row">Tuesday</th><td>Elephants</td><td>150</td></tr>
+                   <tr><th scope="row">Wednesday</th><td>Monkeys</td><td>25</td></tr>
+                   <tr><th scope="row">Thursday</th><td>Giraffes</td><td>150</td></tr>
+                   <tr><th scope="row">Friday</th><td>Eagles</td><td>25</td></tr>
+                </tbody>
+                <tfoot>
+                 <tr><th scope="row" colspan="2">Total</th><td>175</td></tr>
+                </tfoot>
+            </table>
+
+            <h2>Interactive Elements</h2>
+            <details>
+             <summary>What is an animal orphanage?</summary>
+             <p>An animal orphanage is a sanctuary for rescued wildlife that cannot survive alone.</p>
+            </details>
+
+            <dialog open>
+             <p>Thank you for supporting the Kenya National Animal Orphanage in wildlife conservation!</p>
+            </dialog>
+
+             <p>Construction progress: <progress value="70" max="100">70%</progress></p>
+             <p>Water tank level: <meter min="0" max="100" low="30" high="80" optimum="60" value="55">55%</meter></p>
+    </main>
+
+  <footer>
+    <p>&copy; <time datetime="2025">2025</time> Kenya National Animal Orphanage. All rights reserved.</p>
+  </footer>
+
+
+    </body>
+</html>
+
+      
