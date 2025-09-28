@@ -8,6 +8,6 @@ quotes, time, abbr, code/kbd/samp.
 links.
 - **media.html** — `<picture>` responsive image, using <figure>, audio, video
 with VTT captions.
-- **extras.html** — Tables (caption/thead/tbody/tfoot), such as teh weekly feeding scheduke of the animal
+- **extras.html** — Tables (caption/thead/tbody/tfoot), such as the weekly feeding scheduke of the animal
 `<details>`, `<dialog open>`, `<progress>`, `<meter>`.
 **Live site:** https://bosirejoy33.github.io/html_practical/
