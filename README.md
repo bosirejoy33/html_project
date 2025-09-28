@@ -1,4 +1,4 @@
-# html_practical
+# html_project
 # HTML5 Practical (No JS, No Forms)
 This site demonstrates modern HTML5 semantics, media,
 captions, tables, and accessible micro-elements through a orphanage website
