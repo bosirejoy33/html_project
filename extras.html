@@ -5,14 +5,27 @@
     <title>HTML5 Practical - About</title>
     <meta name="description" content="Data tables, interactive elements and microcontent of the Kenya National Animal Orphanage">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     </head>
     <body>
-        <a href="#main">Skip to main content</a>
+      <a href="#main-content" class="skip-link">skip to content</a>
 
-        <header>
+  <main id="main-content" tabindex="-1">
+
+    <div class="banner" 
+    style="background-image:
+            linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+            url('assets/images/zebra-grazing.jpg');">
+        <h1>Kenya National Animal Orphanage:</h1>
+    </div>
+
+        <header class="site-header">
             <h1> About The Kenya National Animal Orphanage</h1>
-            <nav>
-                <ul>
+            <nav class="site-nav">
+                <ul class="nav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="media.html">Media</a></li>
@@ -22,6 +35,18 @@
         </header>
 
         <main id="main">
+
+            <h2>Fun Facts and New Developments at the orphanage</h2>
+            <details>
+             <summary>What is an animal orphanage?</summary>
+             <p>An animal orphanage is a sanctuary for rescued wildlife that cannot survive alone.</p>
+            </details>
+
+           
+
+             <p>Construction progress for the new monkey enclosure: <progress value="70" max="100">70%</progress></p>
+             <p>Water tank level: <meter min="0" max="100" low="30" high="80" optimum="60" value="60">60%</meter></p>
+
             <h2>Weekly feeding Plan</h2>
             <table>
                 <caption>Weekly Feeding Plan for the Animals</caption>
@@ -29,7 +54,7 @@
                     <tr>
                         <th scope="col">Day</th>
                         <th scope="col">Animal</th>
-                        <th scope="col">Food(kg)</th>
+                        <th scope="col">Food (kg)</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -40,25 +65,19 @@
                    <tr><th scope="row">Friday</th><td>Eagles</td><td>25</td></tr>
                 </tbody>
                 <tfoot>
-                 <tr><th scope="row" colspan="2">Total</th><td>175</td></tr>
+                 <tr><th scope="row" colspan="2">Total</th><td>375</td></tr>
                 </tfoot>
             </table>
 
-            <h2>Interactive Elements</h2>
-            <details>
-             <summary>What is an animal orphanage?</summary>
-             <p>An animal orphanage is a sanctuary for rescued wildlife that cannot survive alone.</p>
-            </details>
-
-            <dialog open>
-             <p>Thank you for supporting the Kenya National Animal Orphanage in wildlife conservation!</p>
-            </dialog>
-
-             <p>Construction progress: <progress value="70" max="100">70%</progress></p>
-             <p>Water tank level: <meter min="0" max="100" low="30" high="80" optimum="60" value="55">55%</meter></p>
     </main>
 
   <footer>
+
+    <dialog open>
+             <p>Thank you for supporting the Kenya National Animal Orphanage in wildlife conservation!</p>
+            </dialog>
+
+
     <p>&copy; <time datetime="2025">2025</time> Kenya National Animal Orphanage. All rights reserved.</p>
   </footer>
 
@@ -67,3 +86,4 @@
 </html>
 
       
+
