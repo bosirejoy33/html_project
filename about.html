@@ -5,14 +5,27 @@
     <title>HTML5 Practical - About</title>
     <meta name="description" content="Unlock the history and mission of the Kenya National Animal Orphanage">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     </head>
     <body>
-        <a href="#main">Skip to main content</a>
+        <a href="#main-content" class="skip-link">skip to content</a>
 
-        <header>
+  <main id="main-content" tabindex="2">
+
+    <div class="banner" 
+        style="background-image:
+                linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('assets/images/lioness.jpg');">
+            <h1>Kenya National Animal Orphanage:</h1>
+        </div>
+
+        <header class="site-header">
             <h1> About The Kenya National Animal Orphanage</h1>
-            <nav>
-                <ul>
+            <nav class="site-nav">
+                <ul class="nav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html" aria-current="page">About</a></li>
                     <li><a href="media.html">Media</a></li>
@@ -47,10 +60,11 @@
 
             <section>
                 <dl>
-                    <dt>What is the Kenya National Animal Orphanage?</dt>
+                    <h2>Frequently Asked Questions</h2>
+                    <dt>1.What is the Kenya National Animal Orphanage?</dt>
                     <dd>The Kenya National Animal Orphanage is a wildlife rescue and rehabilitation center dedicated to the care of orphaned and injured animals.</dd>
-
-                    <dt>How can I support the orphanage?</dt>
+<br>
+                    <dt>2.How can I support the orphanage?</dt>
                     <dd>You can support the orphanage by visiting, volunteering, donating, or spreading the word about our mission.</dd>
                 </dl>
             </section>
