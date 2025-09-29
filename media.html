@@ -5,14 +5,27 @@
     <title>HTML5 Practical - About</title>
     <meta name="description" content="Explore and discover photos and other media from the Kenya National Animal Orphanage">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
     </head>
     <body>
-        <a href="#main">Skip to main content</a>
+      <a href="#main-content" class="skip-link">skip to content</a>
 
-        <header>
+      <main id="main-content" tabindex="-1">
+        <div class="banner" 
+        style="background-image:
+                linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('assets/images/herd-elephants.jpg');">
+            <h1>Kenya National Animal Orphanage: MEDIA</h1>
+        </div>
+      </main>
+
+        <header class="site-header">
             <h1>  The Kenya National Animal Orphanage: MEDIA </h1>
-            <nav>
-                <ul>
+            <nav class="site-nav">
+                <ul class="nav">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="media.html" aria-current="page">Media</a></li>
@@ -22,7 +35,10 @@
         </header>
 
         <main id="main">
-            <h2>Responsive Images</h2>
+
+            <h2>Welcome to the Media Gallery</h2>
+            <p> At the Kenya National Animal Orphanage we aim to rehabilitate and release orphaned animals back into the wild, in the media gallery are some of the rehabilitated animals that have been successfully returned and integrated into their natural habitats.</p>
+            <h2>Media Gallery</h2>
             <figure>
   <picture>
     <img
@@ -77,15 +93,24 @@
   <figcaption>An african giraffe roaming the savannah</figcaption>
          </figure>
 
-            <h2>Animal Sounds</h2>
-            <audio controls>
+         <section class="animal-audio-card" aria-labelledby="lion-title">
+          <div>
+            <h2 id="lion-title">Lion Roars!!</h2>
+            <p> At KNAO, we pride ourselves at the amazing sounds of the wild animals which produce a variety of calls and sounds that are essential for their communication and survival, listen.</p>
+            </div>
+
+            <div class="animal-audio-wrap">
+            <audio controls preload="none" aria-label="animal sounds: lion, elephant, monkey">
               <source src="assets/audio/lion_roar.mp3" type="audio/mpeg">
               <source src="assets/audio/elephant_trumpet.mp3" type="audio/mpeg">
               <source src="assets/audio/monkey_sound.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
+            <samp>Your browser does not support the audio element.</samp>
             </audio>
+            </div>
+         </section>
 
-            <h2>Video with Captions</h2>
+            <h2>Conservation Efforts</h2>
+            <p> In addition to the countless conservation efforts being done at the orphanage, in other parts of the country KNAO is working tirelessly with locals and kws officers to ensure wildlife and humans are able to share the habitat as illustrated in this video </p>
               <figure id="videoContainer">
               <video id="video" controls preload="metadata" width="800">
               <source src="assets/video/videoplayback.mp4" type="video/mp4" />
@@ -113,5 +138,8 @@
 </html>
 
      
+
+
+
 
 
