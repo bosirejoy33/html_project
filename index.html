@@ -5,14 +5,27 @@
     <title>Kenya National Animal Orphanage - Home</title>
     <meta name="description" content="Learn about our animal orphanage, its mission, and how we care for rescued wildlife.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="canonical" href="css/style.css">
-    </head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
 <body>
-    <a href="#main">Skip to main content</a>
-    <header>
+    <a href="#main-content" class="skip-link">skip to content</a>
+
+  <main id="main-content" tabindex="-1">
+
+    <div class="banner" 
+    style="background-image:
+            linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+            url('assets/images/buffalo.jpg');">
         <h1>Kenya National Animal Orphanage</h1>
-        <nav aria-label="Primary">
-            <ul>
+    </div>
+
+    <header class="site-header">
+        <h1>Kenya National Animal Orphanage</h1>
+        <nav class="site-nav">
+            <ul class="nav">
                 <li><a href="index.html" aria-current="page">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="media.html">Media</a></li>
@@ -25,47 +38,90 @@
         <article>
             <header>
                 <h2>Welcome</h2>
-                <p><time datetime="2025-09-12T12:00:00Z">September 12, 2025</time></p>
-                <p>Welcome to the HTML5 Practical site!</p>
+                <p>At the Kenya National Animal Orphanage, we are committed to the rescue, rehabilitation, and release of orphaned wildlife. Our dedicated team works tirelessly to provide a safe haven for these animals, ensuring they receive the care and support they need to thrive.</p>
             </header>
       
         <section>
             <h3>Our mission</h3>
             <p>The <mark>Kenya National Animal Orphanage</mark> is dedicated to the rescue and rehabilitation of orphaned wildlife.</p>
-            <p>Keyboard shortcut for donation: <kbd>Ctrl</kbd> + <kbd>S</kbd> to save.</p>
-            <p>Code sample of our landmark: <code>&lt;main&gt;</code> landmarks assist screen readers.</p>
+            <p>In order to ensure what we are able to do at KNAO is possible , we rely on the support and generosity of individuals like you, linked <a href="https://donate.knao.ac.ke" target="_blank" rel="noopener">here</a>. to make a donation in helping keep our operations running smoothly.</p>
+            <p>We are also committed to educating the public about wildlife conservation and the importance of protecting our natural heritage.</p>
         </section>
 
-    <section> 
-       <h3>Internal Anchors</h3>
-       <p>Jump to the <a href="#more-info">More Info</a> section on this page.</p>
-    </section>
+        <section> 
+           <h3>Quick Links to see more of KNAO!</h3>
+           <p>Jump to the <a href="#more-info">More Info</a> section on this page.</p>
+           <p>Or jump to <a href="#daily-life">Life at the Orphanage</a> to see our day-to-day activities.</p>
+        </section>
 
-    <section id="more-info">
-     <h3>More Info</h3>
-     <p>Sample output: <samp>Successful adoption processes.</samp></p>
-     <p>Acronyms: <abbr title="World Wildlife Fund">WWF</abbr> supports orphanages like ours</p>
-     <blockquote cite="https://www.wwf.org/"> “Together we can protect the future of nature”
-      <footer>— <cite>WWF</cite></footer>
-     </blockquote>
-    </section>
+        <section id="more-info">
+         <h3>More Info</h3>
+         <p>Sample output: <samp>Successful adoption processes.</samp></p>
+         <p>Example: <samp>Adoption request submitted for Simba the lion cub.</samp></p>
+         <p> <abbr title="World Wildlife Fund">WWF</abbr> supports orphanages like ours</p>
+         <blockquote cite="https://www.wwf.org/"> “Together we can protect the future of nature”
+          <footer>— <cite>WWF</cite></footer>
+         </blockquote>
+        </section>
 
-    <aside aria-label="Side notes">
-      <h4>Did you know?</h4>
-      <p><time datetime="1952-08-06">August 6, 1952</time> marked the first time an elephant calf was rescued at Kenya National Animal Orphanage.</p>
-    </aside>
+        <aside aria-label="Side notes">
+          <h4>Did you know?</h4>
+          <p><time datetime="1952-08-06">August 6, 1952</time> marked the first time an elephant calf was rescued at Kenya National Animal Orphanage.</p>
+        </aside>
 
-    <footer>
-        <address>
-          Contact: <a href="mailto:joynyabb@knao.ac.ke">joynyabb@knao.ac.ke</a><br>
-          Department of Conservation, KNAO
-        </address>
-    </footer>
-  </article>
-</main>
+        <section id="daily-life">
+          <h3>Life at the Orphanage</h3>
 
-<footer>
- <p>&copy; <time datetime="2025">2025</time> Kenya National Animal Orphanage. All rights reserved.</p>
-</footer>
+          <article>
+            <header>
+              <h4>Morning Feeding</h4>
+              <p><time datetime="2025-09-27T08:00">8:00 AM</time> — Our keepers begin the day with bottle-feeding orphaned calves and cubs. This ensures young animals get the nutrition they need for healthy growth.</p>
+            </header>
+          </article>
+
+          <article>
+            <header>
+              <h4>Enrichment Activities</h4>
+              <p><time datetime="2025-09-27T11:00">11:00 AM</time> — Enrichment sessions include play, training, and introducing natural elements like branches or water pools to stimulate instincts.</p>
+            </header>
+            <blockquote cite="https://www.wwf.org">
+              “Enrichment is key to animal welfare in captivity.”
+              <footer>— <cite>KNAO Caretaker’s Handbook</cite></footer>
+            </blockquote>
+          </article>
+
+          <article>
+            <header>
+              <h4>Medical Check-ups</h4>
+              <p><time datetime="2025-09-27T14:00">2:00 PM</time> — Our veterinary team conducts health assessments, administers vaccines, and monitors progress of recovering animals.</p>
+            </header>
+          </article>
+
+          <article>
+            <header>
+              <h4>Evening Calm</h4>
+              <p><time datetime="2025-09-27T18:00">6:00 PM</time> — As the sun sets, the animals return to their enclosures. Caretakers record daily observations for each orphan.</p>
+            </header>
+          </article>
+
+          <aside aria-label="Visitor Note">
+            <h4>Did you know?</h4>
+            <p>Each animal has a personalized care plan, recorded daily by our staff to track recovery and progress toward release.</p>
+          </aside>
+        </section>
+
+
+        <footer>
+            <address>
+              Contact: <a href="mailto:joynyabb@knao.ac.ke">joynyabb@knao.ac.ke</a><br>
+              Department of Conservation, KNAO
+            </address>
+        </footer>
+      </article>
+    </main>
+
+  <footer>
+   <p>&copy; <time datetime="2025">2025</time> Kenya National Animal Orphanage. All rights reserved.</p>
+  </footer>
 </body>
 </html>
