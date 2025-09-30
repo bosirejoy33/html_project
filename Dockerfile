@@ -2,7 +2,7 @@
 FROM nginx:alpine
 
 # Copy site into nginx web root
-COPY . /usr/share/nginx/html
+COPY html_project /usr/share/nginx/html
 
 # Health check to ensure container is alive
 HEALTHCHECK --interval=30s --timeout=3s \
