@@ -5,6 +5,26 @@ captions, tables, and accessible micro-elements through a orphanage website
 it includes multiple pages, styles, and media assets (images, audio, video, and captions).  
 The site is served using **Nginx** inside a lightweight Docker container (`nginx:alpine`).
 
+repository structure
+html_project/
+│── assets/
+│   ├── css/
+│   │    └── styles.css
+│   ├── images/
+│   ├── audio/
+│   ├── video/
+│   └── captions/
+│
+│── index.html
+│── about.html
+│── media.html
+│── extras.html
+│
+│── Dockerfile
+│── .dockerignore
+│── README.md
+
+
 - **index.html** — Semantic structure, skip link, headings,
 quotes, time, abbr, code/kbd/samp.
 - **about.html** — Sections, lists, definition lists, internal
