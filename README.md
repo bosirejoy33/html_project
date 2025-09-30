@@ -19,4 +19,10 @@ spacing: --space-1…--space-5
 Add dark mode with:
 @media (prefers-color-scheme: dark) {
 :root { /
-**Live site:** https://bosirejoy33.github.io/html_project/
+
+**Live site:** 
+GitHub Pages URL: https://bosirejoy33.github.io/html_project/
+
+Docker Hub Image: https://hub.docker.com/r/bosirejoy33/html_project/tags
+
+GitHub Repository:  https://github.com/bosirejoy33/html_project
